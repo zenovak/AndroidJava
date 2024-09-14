@@ -12,7 +12,7 @@ Example Item lists:
 - Music Playlist
 - Contacts
 
-![](/.github/static/goal.png)
+![](/docs/static/goal.png)
 
 <br>
 
