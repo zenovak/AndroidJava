@@ -46,6 +46,6 @@ We need to prepare 3 classes and a layout resource file:
 - `Model` class which represents each individual entry in our json
 - `RecyclerViewAdapter` class which will inflate the view layouts
 - `ViewHolder` class which the `RecyclerViewAdapter` enforces the use of.
-- `model_items_view` which is the XML resources that defines each individual list item's UI appearance. The `ListView` will arrange each individual
+- `model_items_view` which is the XML resources that defines each individual list item's UI appearance. The `LayoutManager` will arrange each individual
   item's view on top of each other automatically and dictate the lifecycle calls.
 
