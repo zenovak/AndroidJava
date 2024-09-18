@@ -26,7 +26,7 @@ android {
         // What version source code you want to write in?
         sourceCompatibility JavaVersion.VERSION_17
         // What version do you want your code to be compatible with?
-        targetCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
 

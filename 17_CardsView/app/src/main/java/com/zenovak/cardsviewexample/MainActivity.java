@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView.setLayoutManager(new GridLayoutManager(
                 this,
-                GridLayoutManager.DEFAULT_SPAN_COUNT
+                2
                 ));
         recyclerView.setAdapter(adapter);
     }

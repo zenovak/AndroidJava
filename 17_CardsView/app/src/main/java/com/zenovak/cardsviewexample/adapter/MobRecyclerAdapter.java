@@ -47,7 +47,8 @@ public class MobRecyclerAdapter extends RecyclerView.Adapter<MobRecyclerAdapter.
 
     @Override
     public int getItemCount() {
-        return 0;
+
+        return this.mobModels.length;
     }
 
     public class MobModelViewHolder extends RecyclerView.ViewHolder {
