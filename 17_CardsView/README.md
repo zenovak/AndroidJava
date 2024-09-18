@@ -17,6 +17,9 @@ dependencies {
 
 ### The goal
 
+![](docs/static/android%20card%20view.png)
+
+
 <br>
 
 ### Architecture
@@ -32,7 +35,7 @@ etc.
 Since we are letting the `RecyclerView` dictate the arrangement of our cards, the `GridLayoutManager` will be used.
 See `LayoutManagers` from 16_RecyclerView examples and the android developer docs for more details on its configuration options
 
-Below is a typical data model that we will use to display with the `CardView`
+Below is a typical data model that we will use to display with the `CardView`. In although its possible to use a URI, in our case images are stored in `res/drawable`, thus the `resourceLocatorId` is used instead
 
 ```json
 [
