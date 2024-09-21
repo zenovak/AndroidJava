@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -40,9 +41,18 @@ public class MobRecyclerAdapter extends RecyclerView.Adapter<MobRecyclerAdapter.
 
     @Override
     public void onBindViewHolder(@NonNull MobModelViewHolder holder, int position) {
-        holder.image.setImageResource(mobModels[position].getImageResId());
-        holder.name.setText(mobModels[position].getName());
-        holder.job.setText(mobModels[position].getJob());
+        var mob = mobModels[position];
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context, "Clicked on " + mob.getName() , Toast.LENGTH_SHORT)
+                        .show();
+            }
+        });
+
+        holder.image.setImageResource(mob.getImageResId());
+        holder.name.setText(mob.getName());
+        holder.job.setText(mob.getJob());
     }
 
     @Override
