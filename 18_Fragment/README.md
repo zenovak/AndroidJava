@@ -26,9 +26,14 @@ Very much like React or Vue components.
 <br>
 
 ### The goal
+In this example project, we will explore the different ways of creating multi-paged applications
+using fragments and viewPager. The method of navigation will differ across examples, such as a tab
+layout, a navigation drawer, and bottom navigation bar
+
+Each example is implemented as an activity.
 
 
-
+<br>
 
 ### When to use fragments vs activities
 Fragments are used to create Reusable UI components that can assemble into a single page. In this 
@@ -48,12 +53,52 @@ Use an activity when:
 <br>
 
 ### Architecture and viewPager
+`ViewPager2` is like `RecyclerView`, it requires an adapter to inflate the views for the fragment
+pages.
 
 
+To use ViewPager to construct multi paged applications with fragments. You will need to define:
+- `ViewPager2` the View class that is responsible for displaying the pages.
+- `Fragment` classes and their layout resources to represent each individual pages
+- `FragmentStateAdapter` to initialize and inflate the Fragment page layout
+- A UI layout library for the navigation
 
 
-To use fragments to construct multi paged applications. These are top-3 libraries to build the 
-navigation logics
-- `Navigation`
+These are top UI components to build the navigation logics
+- `TabLayout`
 - `BottomNavigationView`
-- `ViewPager2`
+
+<br><br>
+
+---
+## Fragment Usage Examples
+
+
+### Static Fragments
+Fragments can be attached to a single activity statically. In this scenario fragments behaves more 
+like reusable UI components. 
+
+<br>
+
+### ViewPager fragments
+Fragments can be inflated and initialized by a `viewPager`'s adapter. The viewPager allows fragments
+to be swiped into and out of view. It allows for the basis of multi-paged navigation. 
+
+However, `ViewPager` does not come with its own tab or page indicator and requires additional 
+UI components such as TabLayout to provide the navigation hints and buttons.
+
+This example will be built upon to add UI navigation indicators.
+
+
+
+
+
+
+
+<br><br>
+
+---
+## References
+
+https://developer.android.com/guide/navigation/navigation-swipe-view-2
+
