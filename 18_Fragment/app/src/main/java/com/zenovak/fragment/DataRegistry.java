@@ -15,5 +15,10 @@ public class DataRegistry {
                     "An activity with multiple swippable pages",
                     ViewPagerFragmentActivity.class
             ),
+            new FragmentUsageExample(
+                    "Tab Layout viewPager fragment",
+                    "An activity that uses viewPager with Tab layout",
+                    TabLayoutActivity.class
+            ),
     };
 }
