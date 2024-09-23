@@ -20,5 +20,10 @@ public class DataRegistry {
                     "An activity that uses viewPager with Tab layout",
                     TabLayoutActivity.class
             ),
+            new FragmentUsageExample(
+                    "Navigation Menu drawer",
+                    "Fragment navigations that uses menu resource declaration and the fragment manager",
+                    NavigationMenuActivity.class
+            )
     };
 }
