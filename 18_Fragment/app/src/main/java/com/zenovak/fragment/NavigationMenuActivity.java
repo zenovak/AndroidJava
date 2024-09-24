@@ -16,6 +16,7 @@ import android.view.MenuItem;
 import com.google.android.material.navigation.NavigationView;
 import com.zenovak.fragment.adapter.ViewPagerFragmentPageAdapter;
 import com.zenovak.fragment.fragment.BlueFragment;
+import com.zenovak.fragment.fragment.GreenFragment;
 import com.zenovak.fragment.fragment.RedFragment;
 
 import java.util.logging.Logger;
@@ -48,6 +49,9 @@ public class NavigationMenuActivity extends AppCompatActivity {
                  switch (item.getItemId()){
                      case R.id.nav_red_fragment:
                          fragmentClass = RedFragment.class;
+                         break;
+                     case R.id.nav_green_fragment:
+                         fragmentClass = GreenFragment.class;
                          break;
                      default:
                          fragmentClass = BlueFragment.class;

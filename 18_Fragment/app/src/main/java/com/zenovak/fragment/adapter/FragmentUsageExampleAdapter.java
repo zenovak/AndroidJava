@@ -13,7 +13,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.zenovak.fragment.R;
 import com.zenovak.fragment.model.FragmentUsageExample;
 
-
+/**
+ * Part of the demo class. This adapter shows the Example activities in a list.
+ */
 public class FragmentUsageExampleAdapter extends RecyclerView.Adapter<FragmentUsageExampleAdapter.ViewHolder> {
     private FragmentUsageExample[] fragmentUsageExamples;
     private Context context;

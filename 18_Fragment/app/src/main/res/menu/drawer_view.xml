@@ -7,10 +7,17 @@
         <item
             android:id="@+id/nav_blue_fragment"
             android:title="Blue Fragment"
+            android:enabled="true"
             android:icon="@drawable/baseline_luggage_24" />
         <item
             android:id="@+id/nav_red_fragment"
+            android:enabled="true"
             android:title="Red Fragment"
+            android:icon="@drawable/baseline_luggage_24" />
+        <item
+            android:id="@+id/nav_green_fragment"
+            android:enabled="true"
+            android:title="Green Fragment"
             android:icon="@drawable/baseline_luggage_24" />
     </group>
 </menu>

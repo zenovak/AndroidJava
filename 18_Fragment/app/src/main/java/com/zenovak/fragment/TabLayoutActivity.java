@@ -29,8 +29,12 @@ public class TabLayoutActivity extends AppCompatActivity {
                 case 1:
                     tab.setText("Red fragment");
                     break;
+                case 2:
+                    tab.setText("Green fragment");
+                    break;
                 default:
                     tab.setText("Blue fragment");
+                    break;
 
             }
         })).attach();

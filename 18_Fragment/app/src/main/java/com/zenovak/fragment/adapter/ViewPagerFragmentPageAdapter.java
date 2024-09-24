@@ -8,11 +8,12 @@ import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.zenovak.fragment.fragment.BlueFragment;
+import com.zenovak.fragment.fragment.GreenFragment;
 import com.zenovak.fragment.fragment.RedFragment;
 
 
 public class ViewPagerFragmentPageAdapter extends FragmentStateAdapter {
-    private int numOfPages = 2;
+    private int numOfPages = 3;
 
 
     public ViewPagerFragmentPageAdapter(@NonNull FragmentActivity fragmentActivity) {
@@ -33,6 +34,8 @@ public class ViewPagerFragmentPageAdapter extends FragmentStateAdapter {
         switch (position){
             case 1:
                 return new RedFragment();
+            case 2:
+                return new GreenFragment();
             default:
                 return new BlueFragment();
         }
