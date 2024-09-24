@@ -24,6 +24,11 @@ public class DataRegistry {
                     "Navigation Menu drawer",
                     "Fragment navigations that uses menu resource declaration and the fragment manager",
                     NavigationMenuActivity.class
-            )
+            ),
+            new FragmentUsageExample(
+                    "Bottom Navigation Menu",
+                    "Fragment navigation that uses menu resource declaration, fragment manager and has a bottom navigation bar",
+                    BottomNavigationActivity.class
+            ),
     };
 }
