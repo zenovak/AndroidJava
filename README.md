@@ -18,5 +18,5 @@ The importance of learning the imperative way of building the UI than just use c
 <br><br>
 
 ---
-<a rel= "license" href='https://github.com/Zenovak'><img src='https://i.postimg.cc/C1NkFLNr/m-32x32.png' style="border-width:0;" alt='favicon-32x32'/></a> <a rel="license" href="https://github.com/zenovak/AndroidJava/blob/main/LICENSE"><img alt="Creative Commons License" style="border-width:0; height:32px;" src="https://img.shields.io/badge/license-MIT-green" /></a>
+<a rel= "license" href='https://github.com/Zenovak'><img src='https://zenovak.dev/signatures/zenovak-32x32.png' style="border-width:0;" alt='favicon-32x32'/></a> <a rel="license" href="https://github.com/zenovak/AndroidJava/blob/main/LICENSE"><img alt="Creative Commons License" style="border-width:0; height:32px;" src="https://img.shields.io/badge/license-MIT-green" /></a>
 
