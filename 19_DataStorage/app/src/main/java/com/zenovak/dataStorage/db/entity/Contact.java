@@ -8,6 +8,11 @@ public class Contact {
     private String num;
     private String email;
 
+    public Contact(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
+
     public Contact(int id, String name, @Nullable String num, @Nullable String email) {
         this.id = id;
         this.name = name;

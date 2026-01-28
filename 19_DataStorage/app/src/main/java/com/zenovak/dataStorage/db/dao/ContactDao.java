@@ -9,10 +9,10 @@ public class ContactDao {
     public static final String COLUMN_EMAIL = "email";
 
     public static final String CREATE_TABLE = String.format(
-        "CREATE IF NOT EXISTS %s (" +
-        "%s INTEGER PRIMARY KEY AUTOINCREMENT \n" +
-        "%s STRING NOT NULL \n" +
-        "%s STRING \n" +
+        "CREATE TABLE IF NOT EXISTS %s (" +
+        "%s INTEGER PRIMARY KEY AUTOINCREMENT, \n" +
+        "%s STRING NOT NULL, \n" +
+        "%s STRING, \n" +
         "%s STRING " +
         ")",
             TABLE_NAME,

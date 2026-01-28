@@ -99,8 +99,16 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 null,
                 null
                 );
-        if (cursor != null)
-            cursor.moveToFirst();
+
+        if (cursor == null) {
+            return contacts;
+        }
+        if (cursor.getCount() == 0) {
+            cursor.close();
+            return contacts;
+        }
+
+        cursor.moveToFirst();
 
         while (true) {
             contacts.add(new Contact(

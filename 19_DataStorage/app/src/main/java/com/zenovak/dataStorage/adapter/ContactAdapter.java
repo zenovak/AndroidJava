@@ -1,4 +1,4 @@
-package com.zenovak.dataStorage;
+package com.zenovak.dataStorage.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.zenovak.dataStorage.R;
 import com.zenovak.dataStorage.db.entity.Contact;
 
 import java.util.ArrayList;
