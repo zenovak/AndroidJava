@@ -26,6 +26,11 @@ public class DataRegistry {
                     NavigationMenuActivity.class
             ),
             new FragmentUsageExample(
+                    "Material3 Appbar Navigation",
+                    "Showing the Appbar usage and fragment navigations via graph",
+                    Material3AppbarActivity.class
+            ),
+            new FragmentUsageExample(
                     "Bottom Navigation Menu",
                     "Fragment navigation that uses menu resource declaration, fragment manager and has a bottom navigation bar",
                     BottomNavigationActivity.class

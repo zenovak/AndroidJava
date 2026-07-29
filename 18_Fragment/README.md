@@ -89,7 +89,12 @@ UI components such as TabLayout to provide the navigation hints and buttons.
 
 This example will be built upon to add UI navigation indicators.
 
+<br>
 
+---
+## Different Navigation elements and Fragment transition examples
+Every new activity added is a self-contained example on how to use these particular
+Navigation widgets, and how Navigation between fragments are established
 
 
 

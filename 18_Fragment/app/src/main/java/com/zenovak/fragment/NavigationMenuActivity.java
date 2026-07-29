@@ -1,7 +1,6 @@
 package com.zenovak.fragment;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
@@ -10,16 +9,13 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
-import com.zenovak.fragment.adapter.ViewPagerFragmentPageAdapter;
 import com.zenovak.fragment.fragment.BlueFragment;
 import com.zenovak.fragment.fragment.GreenFragment;
 import com.zenovak.fragment.fragment.RedFragment;
 
-import java.util.logging.Logger;
 
 public class NavigationMenuActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
@@ -33,7 +29,7 @@ public class NavigationMenuActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationIcon(R.drawable.baseline_menu_24);
 
         drawerLayout = findViewById(R.id.drawer_layout);
 
