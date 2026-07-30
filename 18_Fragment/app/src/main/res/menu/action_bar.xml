@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:title="Green Fragment"
+        android:title="Blue Fragment"
         android:id="@+id/action_settings"
         app:showAsAction="never"
         />
